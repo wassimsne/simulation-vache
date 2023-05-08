@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace simulation_vache.StringExtension
 {
-    public static class Classeextensible
+    public static  class StringExt
     {
-       
-        // la clsse extenible doit commencer par this au niveau de parametre apres la classe qu'on veut l'extensibiliser 
-
         public static void dump(this string str, ConsoleColor color = ConsoleColor.White)
         {
             if (str != null)

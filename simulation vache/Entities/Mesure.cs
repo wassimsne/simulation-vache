@@ -12,11 +12,11 @@ namespace simulation_vache
         public int idMesure;
         public int idVache;
         public DateTime time;
-       public  TypeMesure Type;
+        public  TypeMesure Type;
         public float valeur;
         public override string ToString()
         {
-            return "Id Mesure " + idMesure + " Id Vache= " + idVache + "time" + time + "Type" + Type + "Valeur" + valeur;
+            return "Id Mesure=" + idMesure + "  Id Vache= " + idVache + "  time=" + time + "  Type=" + Type + " Valeur=" + valeur;
         }
     }
 
